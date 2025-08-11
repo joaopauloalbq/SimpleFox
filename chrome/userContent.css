@@ -10,12 +10,8 @@ by Miguel Avila
 
 */
 
-:root {
-  scrollbar-width: none !important;
-}
+:root { }
 
 @-moz-document url(about:privatebrowsing) {
-  :root {
-    scrollbar-width: none !important;
-  }
+  :root {}
 }
