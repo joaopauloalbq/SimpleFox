@@ -19,8 +19,8 @@ by Miguel Avila
 */
 
 :root {
-  --sfwindow: #19171a;
-  --sfsecondary: #201e21;
+  --sfwindow: #1e222a;
+  --sfsecondary: #2a303b;
 }
 
 /* Urlbar View */
@@ -30,10 +30,10 @@ by Miguel Avila
 /* want to show the URL Bar    */
 /*─────────────────────────────*/
 
-.urlbarView {
+/* .urlbarView {
   display: none !important;
 }
-
+ */
 /*─────────────────────────────*/
 
 /* 
@@ -71,10 +71,10 @@ by Miguel Avila
 }
 
 /* Sidebar color  */
-#sidebar-box,
-.sidebar-placesTree {
-  background-color: var(--sfwindow) !important;
-}
+/* #sidebar-box, */
+/* .sidebar-placesTree { */
+/*   background-color: var(--sfwindow) !important; */
+/* } */
 
 /* 
 
@@ -88,13 +88,13 @@ by Miguel Avila
 */
 
 /* Tabs elements  */
-.tab-close-button {
-  display: none;
-}
+/* .tab-close-button { */
+/*   display: none; */
+/* } */
 
-.tabbrowser-tab:not([pinned]) .tab-icon-image {
-  display: none !important;
-}
+/* .tabbrowser-tab:not([pinned]) .tab-icon-image { */
+/*   display: none !important; */
+/* } */
 
 #nav-bar:not([tabs-hidden='true']) {
   box-shadow: none;
@@ -107,14 +107,14 @@ by Miguel Avila
 }
 
 :root {
-  --toolbarbutton-border-radius: 0 !important;
+  /* --toolbarbutton-border-radius: 0 !important; */
   --tab-border-radius: 0 !important;
   --tab-block-margin: 0 !important;
 }
 
 .tab-background {
   border-right: 0px solid rgba(0, 0, 0, 0) !important;
-  margin-left: -4px !important;
+  margin-left: -3px !important;
 }
 
 .tabbrowser-tab:is([visuallyselected='true'], [multiselected])
@@ -158,15 +158,15 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 }
 
 /* Toolbar  */
-#tracking-protection-icon-container,
-#urlbar-zoom-button,
-#star-button-box,
-#pageActionButton,
-#pageActionSeparator,
-#tabs-newtab-button,
-#back-button,
-#PanelUI-button,
-#forward-button,
+/* #tracking-protection-icon-container, */
+/* #urlbar-zoom-button, */
+/* #star-button-box, */
+/* #pageActionButton, */
+/* #pageActionSeparator, */
+/* #tabs-newtab-button, */
+/* #back-button, */
+/* #PanelUI-button, */
+/* #forward-button, */
 .tab-secondary-label {
   display: none !important;
 }
@@ -176,30 +176,30 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 }
 
 /* Disable elements  */
-#context-navigation,
-#context-savepage,
-#context-pocket,
-#context-sendpagetodevice,
-#context-selectall,
-#context-viewsource,
-#context-inspect-a11y,
-#context-sendlinktodevice,
-#context-openlinkinusercontext-menu,
-#context-bookmarklink,
-#context-savelink,
-#context-savelinktopocket,
-#context-sendlinktodevice,
-#context-searchselect,
-#context-sendimage,
-#context-print-selection {
-  display: none !important;
-}
+/* #context-navigation, */
+/* #context-savepage, */
+/* #context-pocket, */
+/* #context-sendpagetodevice, */
+/* #context-selectall, */
+/* #context-viewsource, */
+/* #context-inspect-a11y, */
+/* #context-sendlinktodevice, */
+/* #context-openlinkinusercontext-menu, */
+/* #context-bookmarklink, */
+/* #context-savelink, */
+/* #context-savelinktopocket, */
+/* #context-sendlinktodevice, */
+/* #context-searchselect, */
+/* #context-sendimage, */
+/* #context-print-selection { */
+/*   display: none !important; */
+/* } */
 
-#context_bookmarkTab,
-#context_moveTabOptions,
-#context_sendTabToDevice,
-#context_reopenInContainer,
-#context_selectAllTabs,
-#context_closeTabOptions {
-  display: none !important;
-}
+/* #context_bookmarkTab, */
+/* #context_moveTabOptions, */
+/* #context_sendTabToDevice, */
+/* #context_reopenInContainer, */
+/* #context_selectAllTabs, */
+/* #context_closeTabOptions { */
+/*   display: none !important; */
+/* } */
